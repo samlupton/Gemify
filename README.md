@@ -1,7 +1,3 @@
-Here’s a clear and professional `README.md` for your package:
-
----
-
 # 💎 FJGemUI
 
 **FJGemUI** is a lightweight SwiftUI package that provides scalable, stateless, and beautifully-rendered gem icons. Choose from **Ruby**, **Diamond**, **Sapphire**, or **Emerald** styles, with built-in support for dynamic scaling and stretching. Perfect for decorative UI elements, gamification, badges, or rewards systems.
@@ -74,7 +70,3 @@ All gems use vector paths and are designed to scale and stretch within SwiftUI l
 ## 📄 License
 
 This package is released under the MIT License.
-
----
-
-Let me know if you’d like to include a preview image or add documentation for extending with custom gems.
