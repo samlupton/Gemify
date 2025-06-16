@@ -2,13 +2,13 @@ import SwiftUI
 
 public struct Gem: View {
     
-    let gem: FJGemType
+    let gem: GemType
     var scale: Double
     var yScale: Double
     var xScale: Double
     
     public init(
-        gem: FJGemType = .diamond,
+        gem: GemType = .diamond,
         scale: Double = 1.0,
         xScale: Double = 1.0,
         yScale: Double = 1.0
