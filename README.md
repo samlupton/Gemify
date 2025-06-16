@@ -1,6 +1,6 @@
-# 💎 FJGemUI
+# 💎 Gemify
 
-**FJGemUI** is a lightweight SwiftUI package that provides scalable, stateless, and beautifully-rendered gem icons. Choose from **Ruby**, **Diamond**, **Sapphire**, or **Emerald** styles, with built-in support for dynamic scaling and stretching. Perfect for decorative UI elements, gamification, badges, or rewards systems.
+**Gemify** is a lightweight SwiftUI package that provides scalable, stateless, and beautifully-rendered gem icons. Choose from **Ruby**, **Diamond**, **Sapphire**, or **Emerald** styles, with built-in support for dynamic scaling and stretching. Perfect for decorative UI elements, gamification, badges, or rewards systems.
 
 ---
 
@@ -22,7 +22,7 @@
 2. Paste the repository URL:
 
    ```
-   https://github.com/your-username/FJGemUI.git
+   https://github.com/your-username/Gemify.git
    ```
 3. Select the package and add it to your project.
 
@@ -33,7 +33,7 @@
 ### Import the module
 
 ```swift
-import FJGemUI
+import Gemify
 ```
 
 ### Add a Gem to your View
