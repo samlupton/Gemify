@@ -1,6 +1,6 @@
 import SwiftUI
 
-public struct FJGem: View {
+public struct Gem: View {
     
     let gem: FJGemType
     var scale: Double
@@ -135,10 +135,10 @@ public struct FJGem: View {
 
 #Preview {
     VStack {
-        FJGem(gem: .diamond, scale: 4.0)
-        FJGem(gem: .ruby, scale: 4.0)
-        FJGem(gem: .sapphire, scale: 4.0)
-        FJGem(gem: .emerald, scale: 4.0)
+        Gem(gem: .diamond, scale: 4.0)
+        Gem(gem: .ruby, scale: 4.0)
+        Gem(gem: .sapphire, scale: 4.0)
+        Gem(gem: .emerald, scale: 4.0)
     }
 }
 

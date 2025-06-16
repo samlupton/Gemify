@@ -1,6 +1,6 @@
 import SwiftUICore
 
-public enum FJGemType {
+public enum GemType {
     case emerald
     case diamond
     case ruby

@@ -22,7 +22,7 @@
 2. Paste the repository URL:
 
    ```
-   https://github.com/your-username/Gemify.git
+   https://github.com/samlupton/Gemify.git
    ```
 3. Select the package and add it to your project.
 
@@ -39,7 +39,7 @@ import Gemify
 ### Add a Gem to your View
 
 ```swift
-FJGem(gem: .ruby, scale: 2.0)
+Gem(gem: .ruby, scale: 2.0)
 ```
 
 #### Parameters:
@@ -51,10 +51,10 @@ FJGem(gem: .ruby, scale: 2.0)
 
 ```swift
 VStack {
-    FJGem(gem: .emerald, scale: 1.0)
-    FJGem(gem: .sapphire, scale: 2.0)
-    FJGem(gem: .diamond, scale: 3.0)
-    FJGem(gem: .ruby, scale: 4.0)
+    Gem(gem: .emerald, scale: 1.0)
+    Gem(gem: .sapphire, scale: 2.0)
+    Gem(gem: .diamond, scale: 3.0)
+    Gem(gem: .ruby, scale: 4.0)
 }
 .padding()
 ```
