@@ -32,17 +32,17 @@ public struct Gem: View {
                 topright
             }
             .rotationEffect(Angle(degrees: 180))
-            .frame(width: 25 * xScale * scale, height: 25 * yScale * scale)
         }
+        .frame(width: 28 * xScale * scale, height: 23 * yScale * scale)
     }
     
     private var lowerleft: some View {
         Path { path in
             path.addLines([
-                CGPoint(x: 12.5 * xScale, y: 0 * yScale) * scale,
-                CGPoint(x: 18 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 25 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 12.5 * xScale, y: 0 * yScale) * scale,
+                CGPoint(x: 14 * xScale, y: 0 * yScale) * scale,
+                CGPoint(x: 0 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 8 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 14 * xScale, y: 0 * yScale) * scale
             ])
         }
         .fill(gem.colors[5])
@@ -50,10 +50,10 @@ public struct Gem: View {
     private var lowermiddle: some View {
         Path { path in
             path.addLines([
-                CGPoint(x: 7 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 18 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 12.5 * xScale, y: 0 * yScale) * scale,
-                CGPoint(x: 7 * xScale, y: 20 * yScale) * scale,
+                CGPoint(x: 14 * xScale, y: 0 * yScale) * scale,
+                CGPoint(x: 8 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 20 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 14 * xScale, y: 0 * yScale) * scale
             ])
         }
         .fill(gem.colors[6])
@@ -62,10 +62,10 @@ public struct Gem: View {
     private var lowerright: some View {
         Path { path in
             path.addLines([
-                CGPoint(x: 7 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 12.5 * xScale, y: 0 * yScale) * scale,
-                CGPoint(x: 0 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 7 * xScale, y: 20 * yScale) * scale,
+                CGPoint(x: 14 * xScale, y: 0 * yScale) * scale,
+                CGPoint(x: 20 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 28 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 14 * xScale, y: 0 * yScale) * scale
             ])
         }
         .fill(gem.colors[7])
@@ -74,10 +74,10 @@ public struct Gem: View {
     private var topleft: some View {
         Path { path in
             path.addLines([
-                CGPoint(x: 0 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 5 * xScale, y: 25 * yScale) * scale,
-                CGPoint(x: 7 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 0 * xScale, y: 20 * yScale) * scale,
+                CGPoint(x: 0 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 6 * xScale, y: 23 * yScale) * scale,
+                CGPoint(x: 8 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 0 * xScale, y: 17 * yScale) * scale,
             ])
         }
         .fill(gem.colors[0])
@@ -86,10 +86,10 @@ public struct Gem: View {
     private var topsecond: some View {
         Path { path in
             path.addLines([
-                CGPoint(x: 7 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 5 * xScale, y: 25 * yScale) * scale,
-                CGPoint(x: 12.5 * xScale, y: 25 * yScale) * scale,
-                CGPoint(x: 7 * xScale, y: 20 * yScale) * scale,
+                CGPoint(x: 8 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 6 * xScale, y: 23 * yScale) * scale,
+                CGPoint(x: 14 * xScale, y: 23 * yScale) * scale,
+                CGPoint(x: 8 * xScale, y: 17 * yScale) * scale,
             ])
         }
         .fill(gem.colors[1])
@@ -98,10 +98,10 @@ public struct Gem: View {
     private var topthird: some View {
         Path { path in
             path.addLines([
-                CGPoint(x: 12.5 * xScale, y: 25 * yScale) * scale,
-                CGPoint(x: 18 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 7 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 12.5 * xScale, y: 25 * yScale) * scale,
+                CGPoint(x: 14 * xScale, y: 23 * yScale) * scale,
+                CGPoint(x: 20 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 8 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 14 * xScale, y: 23 * yScale) * scale,
             ])
         }
         .fill(gem.colors[2])
@@ -110,10 +110,10 @@ public struct Gem: View {
     private var topfourth: some View {
         Path { path in
             path.addLines([
-                CGPoint(x: 12.5 * xScale, y: 25 * yScale) * scale,
-                CGPoint(x: 18 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 20 * xScale, y: 25 * yScale) * scale,
-                CGPoint(x: 12.5 * xScale, y: 25 * yScale) * scale,
+                CGPoint(x: 14 * xScale, y: 23 * yScale) * scale,
+                CGPoint(x: 20 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 22 * xScale, y: 23 * yScale) * scale,
+                CGPoint(x: 14 * xScale, y: 23 * yScale) * scale,
             ])
         }
         .fill(gem.colors[3])
@@ -122,10 +122,10 @@ public struct Gem: View {
     private var topright: some View {
         Path { path in
             path.addLines([
-                CGPoint(x: 20 * xScale, y: 25 * yScale) * scale,
-                CGPoint(x: 25 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 18 * xScale, y: 20 * yScale) * scale,
-                CGPoint(x: 20 * xScale, y: 25 * yScale) * scale,
+                CGPoint(x: 22 * xScale, y: 23 * yScale) * scale,
+                CGPoint(x: 28 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 20 * xScale, y: 17 * yScale) * scale,
+                CGPoint(x: 22 * xScale, y: 23 * yScale) * scale,
             ])
         }
         .fill(gem.colors[4])
@@ -134,11 +134,40 @@ public struct Gem: View {
 
 
 #Preview {
+    HStack {
+        VStack {
+            Gem(gem: .diamond, scale: 1.0)
+            Gem(gem: .diamond, scale: 2.0)
+            Gem(gem: .diamond, scale: 3.0)
+            Gem(gem: .diamond, scale: 4.0)
+        }
+        VStack {
+            Gem(gem: .ruby, scale: 1.0)
+            Gem(gem: .ruby, scale: 2.0)
+            Gem(gem: .ruby, scale: 3.0)
+            Gem(gem: .ruby, scale: 4.0)
+        }
+    }
+    HStack {
+        VStack {
+            Gem(gem: .sapphire, scale: 1.0)
+            Gem(gem: .sapphire, scale: 2.0)
+            Gem(gem: .sapphire, scale: 3.0)
+            Gem(gem: .sapphire, scale: 4.0)
+        }
+        VStack {
+            Gem(gem: .emerald, scale: 1.0)
+            Gem(gem: .emerald, scale: 2.0)
+            Gem(gem: .emerald, scale: 3.0)
+            Gem(gem: .emerald, scale: 4.0)
+        }
+    }
     VStack {
-        Gem(gem: .diamond, scale: 4.0)
-        Gem(gem: .ruby, scale: 4.0)
-        Gem(gem: .sapphire, scale: 4.0)
-        Gem(gem: .emerald, scale: 4.0)
+        HStack(alignment: .center, spacing: 4) {
+            Gem(gem: .emerald, scale: 0.55)
+                .alignmentGuide(.firstTextBaseline) { d in d[.bottom]
+                }
+        }
     }
 }
 
