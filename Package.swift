@@ -17,6 +17,10 @@ let package = Package(
             name: "Gem",
             targets: ["Gem"]
         ),
+        .library(
+            name: "Clock",
+            targets: ["Clock"]
+        )
     ],
     dependencies: [
         // Add any external package dependencies here
@@ -30,6 +34,11 @@ let package = Package(
             name: "Gemify",
             dependencies: ["Gem"],
             path: "Sources/Gemify"
+        ),
+        .target(
+            name: "Clock",
+            dependencies: ["Gem"],
+            path: "Sources/Clock"
         ),
         .testTarget(
             name: "GemifyTests",

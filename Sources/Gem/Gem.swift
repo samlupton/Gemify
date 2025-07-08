@@ -47,6 +47,7 @@ public struct Gem: View {
         }
         .fill(gem.colors[5])
     }
+    
     private var lowermiddle: some View {
         Path { path in
             path.addLines([
