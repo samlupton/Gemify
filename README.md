@@ -17,7 +17,7 @@ Both components are built using SwiftUI shapes and paths—no image assets—all
 ## ✨ Features
 
 * 💠 Gem styles: `ruby`, `diamond`, `sapphire`, `emerald`
-* 🕒 **New** Clock component: scalable, stretchable analog face
+* 🕒 **New** Clock component: scalable analog clock
 * 🔹 Stateless and lightweight SwiftUI views
 * 📏 Scale via `scale`, `xScale`, and `yScale` parameters
 * 🧱 Integrates natively with SwiftUI layout system
