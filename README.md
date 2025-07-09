@@ -1,6 +1,7 @@
 # 💎 Gemify
 
-<img src="https://raw.githubusercontent.com/samlupton/Gemify/main/Screenshot%202025-06-15%20at%209.40.16%E2%80%AFPM.png" alt="Gem screenshot" width="200"/>
+<img src="https://raw.githubusercontent.com/samlupton/Gemify/main/gem.png" alt="Gem screenshot" width="200"/>
+<img src="https://raw.githubusercontent.com/samlupton/Gemify/main/clock.png" alt="Gem screenshot" width="200"/>
 
 **Gemify** is a lightweight SwiftUI package that provides scalable, stateless, and beautifully-rendered gem icons. Choose from **Ruby**, **Diamond**, **Sapphire**, or **Emerald** styles, with built-in support for dynamic scaling and stretching. Perfect for decorative UI elements, gamification, badges, or rewards systems.
 
