@@ -1,22 +1,27 @@
-# 💎 Gemify
+# 💎🕒 Gemify
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/samlupton/Gemify/main/gem.png" alt="Gem screenshot" height="500"/>
   <img src="https://raw.githubusercontent.com/samlupton/Gemify/main/clock.png" alt="Clock screenshot" height="500"/>
 </p>
 
-**Gemify** is a lightweight SwiftUI package that provides scalable, stateless, and beautifully-rendered gem icons. Choose from **Ruby**, **Diamond**, **Sapphire**, or **Emerald** styles, with built-in support for dynamic scaling and stretching. Perfect for decorative UI elements, gamification, badges, or rewards systems.
+**Gemify** is a lightweight SwiftUI package providing two scalable, stateless vector icon components:
+
+- **Gems**: Beautifully-rendered, color-themed gems in multiple styles
+- **Clock**: A fully scalable, layout-adaptive analog clock
+
+Both components are built using SwiftUI shapes and paths—no image assets—allowing precise control over size, stretching, and layout responsiveness.
 
 ---
 
 ## ✨ Features
 
-* 🎊 New Clock icon released
-* 🔹 Stateless and lightweight SwiftUI component
 * 💠 Gem styles: `ruby`, `diamond`, `sapphire`, `emerald`
-* 📏 Fully scalable via `scale` parameter
-* 🧱 Stretchable and resizable with standard SwiftUI layout behavior
-* 🎨 Color-themed vector rendering – no image assets needed
+* 🕒 **New** Clock component: scalable, stretchable analog face
+* 🔹 Stateless and lightweight SwiftUI views
+* 📏 Scale via `scale`, `xScale`, and `yScale` parameters
+* 🧱 Integrates natively with SwiftUI layout system
+* 🎨 Fully vector-based rendering – no external assets
 
 ---
 
@@ -25,12 +30,12 @@
 ### Swift Package Manager
 
 1. In Xcode, go to **File > Add Packages**
-2. Paste the repository URL:
+2. Use the repository URL:
 
    ```
    https://github.com/samlupton/Gemify.git
    ```
-3. Select the package and add it to your project.
+3. Select the package and add it to your target.
 
 ---
 
@@ -42,18 +47,21 @@
 import Gemify
 ```
 
-### Add a Gem to your View
+---
+
+### 📍 Gem Component
 
 ```swift
 Gem(gem: .ruby, scale: 2.0)
 ```
 
-#### Parameters:
+#### Parameters
 
-* `gem`: `.ruby`, `.diamond`, `.sapphire`, or `.emerald`
-* `scale`: A `Double` that scales the gem's size (e.g., 1.0, 2.0, etc.)
+- `gem`: `.ruby`, `.diamond`, `.sapphire`, `.emerald`
+- `scale`: Uniform scale
+- `xScale`, `yScale`: Optional non-uniform scaling for stretching
 
-### Example
+#### Example
 
 ```swift
 VStack {
@@ -67,12 +75,26 @@ VStack {
 
 ---
 
-## 🔧 Customization
+### ⏱ Clock Component
 
-All gems use vector paths and are designed to scale and stretch within SwiftUI layouts. You can wrap them in any SwiftUI container or apply standard modifiers like `.frame`, `.padding`, `.background`, etc.
+```swift
+Clock(scale: 10.0)
+```
+
+#### Parameters
+
+- `scale`: Base size multiplier
+
+The clock scales cleanly at any size. It’s ideal for dashboards, widgets, or decorative interfaces.
+
+---
+
+## 🧩 Customization
+
+Both components are built using native SwiftUI vector paths and are resolution-independent. Use standard SwiftUI modifiers like `.frame`, `.padding`, `.background`, `.foregroundColor`, etc. for full styling and layout control.
 
 ---
 
 ## 📄 License
 
-This package is released under the MIT License.
+Gemify is released under the MIT License.
